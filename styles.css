@@ -1,0 +1,70 @@
+body {
+  background: rgba(255, 255, 255, 0);
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+
+.ttl {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+
+/* font weights of hero & navbar items */
+
+.hdr {
+  font-weight: 200;
+}
+
+.hdr-hm {
+  font-weight: 200;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.ttl-brand {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
+.bld {
+  font-weight: 400;
+}
+
+
+.bld-h {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 10px;
+}
+
+/* Searchlight RGB */
+.glow {
+  background: linear-gradient(
+    to right,
+    #6666ff,
+    #0099ff,
+    #00ff00,
+    #ff3399,
+    #6666ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: searchLight 10s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes searchLight {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.brdr {
+  border-bottom: 5px solid
+}
